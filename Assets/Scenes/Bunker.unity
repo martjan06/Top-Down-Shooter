@@ -64514,7 +64514,7 @@ GameObject:
   - component: {fileID: 411186611}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77817,7 +77817,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.0593705
+  orthographic size: 3.3775883
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -88246,7 +88246,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.5
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -91129,7 +91129,7 @@ GameObject:
   - component: {fileID: 1770589977}
   m_Layer: 0
   m_Name: Shots
-  m_TagString: Untagged
+  m_TagString: bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

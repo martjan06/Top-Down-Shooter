@@ -5,9 +5,13 @@ using UnityEngine;
 public class bullet : MonoBehaviour
 {
     private Rigidbody2D rb;
-
-    // Update is called once per frame
-    void Update()
+    public GameObject Bullet;
+    private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.tag == "Object" || collision.gameObject.tag == "Wall")
+        {
+            Destroy(Bullet);
+        }
+        
     }
 }

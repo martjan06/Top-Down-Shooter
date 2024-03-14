@@ -15,25 +15,32 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            rb.AddForce(Vector2.up * 10);
+            rb.AddForce(Vector2.up * 8);
 
         }
-        if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D))
         {
-            rb.AddForce(Vector2.right * 10);
+            rb.AddForce(Vector2.right * 8);
         }
 
-        if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A))
         {
-            rb.AddForce(Vector2.left * 10);
+            rb.AddForce(Vector2.left * 8);
 
         }
-        if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S))
         {
-            rb.AddForce(Vector2.down * 10);
+            rb.AddForce(Vector2.down * 8);
 
         }
+        else if (Input.GetKey(KeyCode.W))
+        {
+            rb.AddForce(Vector2.down * 8);
 
-
+        }
+        else
+        {
+            rb.velocity = Vector2.zero;
+        }
     }
 }
