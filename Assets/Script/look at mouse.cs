@@ -29,6 +29,6 @@ public class lookatmouse : MonoBehaviour
         float AngleRad = Mathf.Atan2(mouse.y - my.position.y, mouse.x - my.position.x);
         float angle = (180 / Mathf.PI) * AngleRad;
 
-        body.rotation = angle;
+        body.rotation = angle + 90;
     }
 }
