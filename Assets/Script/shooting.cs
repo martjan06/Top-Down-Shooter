@@ -11,7 +11,7 @@ public class shooting : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             GameObject tempBullet = Instantiate(Bullet, transform.position,Player.transform.rotation);
             tempBullet.GetComponent<Rigidbody2D>().AddForce(-transform.up * 500f);
