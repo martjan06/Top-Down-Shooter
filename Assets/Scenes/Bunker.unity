@@ -81227,10 +81227,11 @@ PolygonCollider2D:
       - {x: -0.29999998, y: 0.08}
       - {x: -0.29999998, y: -0.02}
       - {x: -0.24, y: -0.04}
-      - {x: 0.22, y: -0.04}
-      - {x: 0.28, y: 0.02}
-      - {x: 0.28, y: 0.08}
-      - {x: 0.22, y: 0.14}
+      - {x: 0.13229181, y: -0.019122273}
+      - {x: 0.23862901, y: 0.0042244815}
+      - {x: 0.23862897, y: 0.0042245425}
+      - {x: 0.2386288, y: 0.0642253}
+      - {x: 0.15030272, y: 0.11515838}
   m_UseDelaunayMesh: 0
 --- !u!212 &848456018
 SpriteRenderer:
@@ -89340,7 +89341,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 1.5
   m_AngularDrag: 0.5
   m_GravityScale: 0
   m_Material: {fileID: 0}
