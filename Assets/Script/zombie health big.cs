@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class zombiehealthbig : MonoBehaviour
 {
-    public int maxhealth = 1;
+    public int maxhealth = 3;
     public int currenthealth;
     void Start()
     {
         currenthealth = maxhealth;
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage2(int amount)
     {
         currenthealth -= amount;
         if (currenthealth <= 0)

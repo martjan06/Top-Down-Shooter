@@ -12,26 +12,23 @@ public class bullet : MonoBehaviour
         {
             Destroy(Bullet);
         }
-        
+
         if (collision.collider.gameObject.tag == "Enemy")
         {
+            Destroy(Bullet);
             collision.gameObject.GetComponent<zombiehealthbaby>().TakeDamage(1);
-            Destroy(Bullet);
         }
-        Destroy(gameObject);
 
-        if (collision.collider.gameObject.tag == "Enemy")
+        if (collision.collider.gameObject.tag == "enemy1")
         {
-            collision.gameObject.GetComponent<zombiehealthnormal>().TakeDamage(1);
             Destroy(Bullet);
+            collision.gameObject.GetComponent<zombiehealthnormal>().TakeDamage1(1);
         }
-        Destroy(gameObject);
 
-        if (collision.collider.gameObject.tag == "Enemy")
+        if (collision.collider.gameObject.tag == "enemy2")
         {
-            collision.gameObject.GetComponent<zombiehealthbig>().TakeDamage(1);
             Destroy(Bullet);
+            collision.gameObject.GetComponent<zombiehealthbig>().TakeDamage2(1);
         }
-        Destroy(gameObject);
     }
 }
