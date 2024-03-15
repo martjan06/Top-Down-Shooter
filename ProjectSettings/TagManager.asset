@@ -10,6 +10,7 @@ TagManager:
   - bullet
   - enemy1
   - enemy2
+  - Deur
   layers:
   - Default
   - TransparentFX
