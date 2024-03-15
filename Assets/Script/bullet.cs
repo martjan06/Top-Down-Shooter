@@ -13,5 +13,25 @@ public class bullet : MonoBehaviour
             Destroy(Bullet);
         }
         
+        if (collision.collider.gameObject.tag == "Enemy")
+        {
+            collision.gameObject.GetComponent<zombiehealthbaby>().TakeDamage(1);
+            Destroy(Bullet);
+        }
+        Destroy(gameObject);
+
+        if (collision.collider.gameObject.tag == "Enemy")
+        {
+            collision.gameObject.GetComponent<zombiehealthnormal>().TakeDamage(1);
+            Destroy(Bullet);
+        }
+        Destroy(gameObject);
+
+        if (collision.collider.gameObject.tag == "Enemy")
+        {
+            collision.gameObject.GetComponent<zombiehealthbig>().TakeDamage(1);
+            Destroy(Bullet);
+        }
+        Destroy(gameObject);
     }
 }
