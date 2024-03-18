@@ -8,7 +8,7 @@ public class shooting : MonoBehaviour
     public Transform Shots;
     public GameObject Player;
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
