@@ -15,7 +15,7 @@ public class healthplayer : MonoBehaviour
 
     public void PlayerTakesDamage(int damage)
     {
-        if (gameObject.tag == "Enemy" || gameObject.tag == "Enemy1" || gameObject.tag == "Enemy2")
+        if (gameObject.tag == "Enemy" || gameObject.tag == "Enemy1" || gameObject.tag == "Enemy2" && playerhealth>0)
         {
             playerhealth = playerhealth - damage;
             if (playerhealth <= 0)
