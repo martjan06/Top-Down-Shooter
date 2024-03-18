@@ -9,9 +9,9 @@ public class enemylopen : MonoBehaviour
     Transform[] waypoints;
 
     [SerializeField]
-    float moveSpeed = 2f;
+    private float moveSpeed = 2f;
 
-    int waypointIndex = 0;
+    private int waypointIndex = 0;
 
     void Start()
     {
