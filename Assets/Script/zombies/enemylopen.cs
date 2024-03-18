@@ -15,7 +15,7 @@ public class enemylopen : MonoBehaviour
 
     void Start()
     {
-        transform.position = waypoints[waypointIndex].transform.position;
+        //transform.position = waypoints[waypointIndex].transform.position;
     }
 
     void Update()
