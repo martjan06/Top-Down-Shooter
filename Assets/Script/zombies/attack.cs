@@ -8,7 +8,6 @@ public class attack : MonoBehaviour
     {
         if (collision.collider.gameObject.tag == "Player")
         {
-            Debug.Log("ben er");
             collision.gameObject.GetComponent<healthplayer>().PlayerTakesDamage(1);
         }
     }

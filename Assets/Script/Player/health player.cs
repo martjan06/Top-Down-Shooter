@@ -17,6 +17,7 @@ public class healthplayer : MonoBehaviour
         if (playerhealth <= 0)
         {
             Destroy(gameObject);
+
         }
     }
 }
