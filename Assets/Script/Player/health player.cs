@@ -8,7 +8,7 @@ public class healthplayer : MonoBehaviour
 {
     public int health = 10;
     public int playerhealth;
-    public string dead;
+    public string DeathScreen;
     void Start()
     {
         playerhealth = health;
@@ -19,8 +19,7 @@ public class healthplayer : MonoBehaviour
         playerhealth -= damage;
         if (playerhealth <= 0)
         {
-            Destroy(gameObject);
-            SceneManager.LoadScene(dead);
+            SceneManager.LoadScene(DeathScreen);
         }
     }
 }
