@@ -64295,8 +64295,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373411223}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.9875445, y: 1.8110199, z: 0.88127357}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -84187,6 +84187,7 @@ GameObject:
   - component: {fileID: 1053712583}
   - component: {fileID: 1053712586}
   - component: {fileID: 1053712585}
+  - component: {fileID: 1053712587}
   m_Layer: 0
   m_Name: zombie big
   m_TagString: enemy2
@@ -84203,7 +84204,7 @@ Transform:
   m_GameObject: {fileID: 1053712581}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.17, y: -0.73999786, z: 0.88127357}
+  m_LocalPosition: {x: 11.309999, y: -66.979996, z: 0}
   m_LocalScale: {x: 6.0650444, y: 5.379666, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84347,6 +84348,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1053712587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053712581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2158895b10dc6324f93fe92f6e436b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1074257976
 GameObject:
   m_ObjectHideFlags: 0
@@ -85904,7 +85917,7 @@ Transform:
   m_GameObject: {fileID: 1288169861}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.48, y: -66.24, z: -0.88127357}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -87410,6 +87423,7 @@ GameObject:
   - component: {fileID: 1395677828}
   - component: {fileID: 1395677831}
   - component: {fileID: 1395677830}
+  - component: {fileID: 1395677832}
   m_Layer: 0
   m_Name: zombie baby
   m_TagString: Enemy
@@ -87426,7 +87440,7 @@ Transform:
   m_GameObject: {fileID: 1395677826}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.1232853, y: -2.971901, z: 0}
+  m_LocalPosition: {x: 13.356714, y: -69.2119, z: -0.88127357}
   m_LocalScale: {x: 2.2053, y: 1.9689, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -87570,6 +87584,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3462997, y: 0.30382153}
   m_EdgeRadius: 0
+--- !u!114 &1395677832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395677826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2158895b10dc6324f93fe92f6e436b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1438585252
 GameObject:
   m_ObjectHideFlags: 0
@@ -89900,7 +89926,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   playerhealth: 0
-  myplayer: 1
   player: {fileID: 0}
 --- !u!1 &1595082443
 GameObject:
@@ -97252,6 +97277,7 @@ GameObject:
   - component: {fileID: 2065296245}
   - component: {fileID: 2065296244}
   - component: {fileID: 2065296243}
+  - component: {fileID: 2065296246}
   m_Layer: 0
   m_Name: zombie normal
   m_TagString: enemy1
@@ -97268,7 +97294,7 @@ Transform:
   m_GameObject: {fileID: 2065296239}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.87, y: -0.34, z: 0}
+  m_LocalPosition: {x: 9.622456, y: -64.768974, z: 0}
   m_LocalScale: {x: 3.8065474, y: 3.772082, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -97428,6 +97454,18 @@ MonoBehaviour:
   - {fileID: 770905707}
   - {fileID: 1836001235}
   moveSpeed: 2
+--- !u!114 &2065296246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065296239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2158895b10dc6324f93fe92f6e436b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2073694067
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,8 +6,6 @@ public class healthplayer : MonoBehaviour
 {
     public int health = 10;
     public int playerhealth;
-    public bool myplayer = true;
-    public GameObject player;
     void Start()
     {
         playerhealth = health;
@@ -15,15 +13,10 @@ public class healthplayer : MonoBehaviour
 
     public void PlayerTakesDamage(int damage)
     {
-        if (gameObject.tag == "Enemy" || gameObject.tag == "Enemy1" || gameObject.tag == "Enemy2" && playerhealth>0)
+        playerhealth -= damage;
+        if (playerhealth <= 0)
         {
-            playerhealth = playerhealth - damage;
-            if (playerhealth <= 0)
-            {
-                Debug.Log("dead");
-                myplayer = false;
-                Destroy(player);
-            }
+            Destroy(gameObject);
         }
     }
 }
