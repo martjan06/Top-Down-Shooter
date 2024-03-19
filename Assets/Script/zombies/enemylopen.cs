@@ -22,7 +22,7 @@ public class enemylopen : MonoBehaviour
     void Update()
     {
         
-        if (chase = false)
+        if (chase == false)
         {
             Move();
         }
