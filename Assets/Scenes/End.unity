@@ -1469,7 +1469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 213a3ab2e92b1d043b74b4ebf971a5bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Menu1: Bunker
+  Menu1: Menu1
 --- !u!4 &1152090502
 Transform:
   m_ObjectHideFlags: 0
