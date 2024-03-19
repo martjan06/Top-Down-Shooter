@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class einddeur : MonoBehaviour
 {
-    public string Menu1;
+    public string end;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Deur")
         {
-            SceneManager.LoadScene(Menu1);
+            SceneManager.LoadScene(end);
         }
     }
 }

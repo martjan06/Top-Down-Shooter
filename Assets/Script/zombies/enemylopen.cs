@@ -13,6 +13,7 @@ public class enemylopen : MonoBehaviour
 
     private int waypointIndex = 0;
 
+    private bool chase = false;
     void Start()
     {
         //transform.position = waypoints[waypointIndex].transform.position;
@@ -20,7 +21,15 @@ public class enemylopen : MonoBehaviour
 
     void Update()
     {
-        Move();
+        if (chase = false)
+        {
+            Move();
+        }
+        else if (chase = true)
+        {
+            Chase();
+        }
+        
     }
 
     void Move()
@@ -36,5 +45,9 @@ public class enemylopen : MonoBehaviour
 
         if (waypointIndex == waypoints.Length)
             waypointIndex = 0;
+    }
+    void Chase()
+    {
+
     }
 }
