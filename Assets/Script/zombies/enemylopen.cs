@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class enemylopen : MonoBehaviour
 {
@@ -13,7 +14,9 @@ public class enemylopen : MonoBehaviour
 
     private int waypointIndex = 0;
 
-    private bool chase = false;
+    public Transform Player;
+
+    public float afstand;
     void Start()
     {
         //transform.position = waypoints[waypointIndex].transform.position;
@@ -22,13 +25,13 @@ public class enemylopen : MonoBehaviour
     void Update()
     {
         
-        if (chase == false)
-        {
-            Move();
-        }
-        else if (chase == true)
+        if (Vector3.Distance(transform.position, Player.position) <= afstand)
         {
             Chase();
+        }
+        else
+        {
+            Move();
         }
         
     }
@@ -49,6 +52,15 @@ public class enemylopen : MonoBehaviour
     }
     void Chase()
     {
+        // roteert naar de variable target positie met bepaalde snelheid
+        transform.position = Vector3.MoveTowards(transform.position, Player.position, 2f * Time.deltaTime);
+        Vector2 direction = Player.position - transform.position;
 
+        // checkt welke angle correct is
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+        // draait naar de juiste angle
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle + 90));
+        return;
     }
 }
