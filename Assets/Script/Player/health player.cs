@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class healthplayer : MonoBehaviour
 {
+
     public int health = 10;
     public int playerhealth;
-    public string DeathScreen;
+    public string Scene;
     void Start()
     {
         playerhealth = health;
@@ -19,7 +20,7 @@ public class healthplayer : MonoBehaviour
         playerhealth -= damage;
         if (playerhealth <= 0)
         {
-            SceneManager.LoadScene(DeathScreen);
+            SceneManager.LoadScene(Scene);
         }
     }
 }

@@ -89434,9 +89434,9 @@ GameObject:
   - component: {fileID: 1580412930}
   - component: {fileID: 1580412933}
   - component: {fileID: 1580412932}
+  - component: {fileID: 1580412936}
   - component: {fileID: 1580412935}
   - component: {fileID: 1580412934}
-  - component: {fileID: 1580412936}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -89618,7 +89618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   playerhealth: 0
-  dead: 
+  Scene: DeathScreen
 --- !u!1 &1595082443
 GameObject:
   m_ObjectHideFlags: 0
