@@ -39,23 +39,53 @@ public class enemylopen : MonoBehaviour
         RaycastHit2D hitfront3 = Physics2D.Raycast(transform.position, Vector2.left, 5.0f);
         Debug.DrawRay(transform.position, Vector2.left * 5.0f, Color.blue);
 
-        if (hitfront.collider != null || hitfront1.collider != null || hitfront2.collider != null || hitfront3.collider != null)
+        if (hitfront.collider != null)
         {
-            if (hitfront.collider.gameObject.tag == ("Player") || hitfront2.collider.gameObject.tag == ("Player") || hitfront3.collider.gameObject.tag == ("Player"))
+            if (hitfront.collider.gameObject.tag == ("Player"))
             {
                 Chase();
             }
-            if (hitfront1.collider.gameObject.tag == ("Player"))
+            else
             {
-
+                Move();
             }
         }
-        else
+
+        if (hitfront1.collider != null)
         {
-            Move();
+            if (hitfront1.collider.gameObject.tag == ("Player"))
+            {
+                Chase();
+            }
+            else
+            {
+                Move();
+            }
         }
 
-        if (hitfront.collider != null)
+        if (hitfront2.collider != null)
+        {
+            if (hitfront2.collider.gameObject.tag == ("Player"))
+            {
+                Chase();
+            }
+            else
+            {
+                Move();
+            }
+        }
+
+        if (hitfront3.collider != null)
+        {
+            if (hitfront3.collider.gameObject.tag == ("Player"))
+            {
+                Chase();
+            }
+            else
+            {
+                Move();
+            }
+        }
     }
 
     void Move()
