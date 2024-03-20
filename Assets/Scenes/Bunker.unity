@@ -80402,7 +80402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &623306613
 Transform:
   m_ObjectHideFlags: 0
@@ -81956,7 +81956,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &702582341
 Transform:
   m_ObjectHideFlags: 0
@@ -84185,7 +84185,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &841943724
 Transform:
   m_ObjectHideFlags: 0
@@ -93642,7 +93642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bacdcb25eb44aa04db9d7600c9def446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 3
   playerhealth: 0
   Scene: DeathScreen
   healthtext: {fileID: 1648129766}
@@ -98876,7 +98876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1944740138
 Transform:
   m_ObjectHideFlags: 0
