@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
@@ -27,64 +28,37 @@ public class enemylopen : MonoBehaviour
 
     void Update()
     {
-        RaycastHit2D hitfront = Physics2D.Raycast(transform.position, Vector2.up, 5.0f);
-        Debug.DrawRay(transform.position, Vector2.up * 5.0f, Color.blue);
+        RaycastHit2D hitfront = Physics2D.Raycast(transform.position, transform.up, 5.0f);
+        Debug.DrawRay(transform.position, transform.up * 5.0f, Color.blue);
 
-        RaycastHit2D hitfront1 = Physics2D.Raycast(transform.position, Vector2.down, 5.0f);
-        Debug.DrawRay(transform.position, Vector2.down * 5.0f, Color.blue);
+        RaycastHit2D hitfront1 = Physics2D.Raycast(transform.position, -transform.up, 5.0f);
+        Debug.DrawRay(transform.position, -transform.up * 5.0f, Color.blue);
 
-        RaycastHit2D hitfront2 = Physics2D.Raycast(transform.position, Vector2.right, 5.0f);
-        Debug.DrawRay(transform.position, Vector2.right * 5.0f, Color.blue);
+        RaycastHit2D hitfront2 = Physics2D.Raycast(transform.position, transform.right, 5.0f);
+        Debug.DrawRay(transform.position, transform.right * 5.0f, Color.blue);
 
-        RaycastHit2D hitfront3 = Physics2D.Raycast(transform.position, Vector2.left, 5.0f);
-        Debug.DrawRay(transform.position, Vector2.left * 5.0f, Color.blue);
+        RaycastHit2D hitfront3 = Physics2D.Raycast(transform.position, -transform.right, 5.0f);
+        Debug.DrawRay(transform.position, -transform.right * 5.0f, Color.blue);
 
-        if (hitfront.collider != null)
+        if (hitfront.collider != null && hitfront.collider.gameObject.tag == ("Player"))
         {
-            if (hitfront.collider.gameObject.tag == ("Player"))
-            {
-                Chase();
-            }
-            else
-            {
-                Move();
-            }
+            Chase();
         }
-
-        if (hitfront1.collider != null)
+        else if (hitfront.collider != null && hitfront.collider.gameObject.tag == ("Player"))
         {
-            if (hitfront1.collider.gameObject.tag == ("Player"))
-            {
-                Chase();
-            }
-            else
-            {
-                Move();
-            }
+            Chase();
         }
-
-        if (hitfront2.collider != null)
+        else if (hitfront.collider != null && hitfront.collider.gameObject.tag == ("Player"))
         {
-            if (hitfront2.collider.gameObject.tag == ("Player"))
-            {
-                Chase();
-            }
-            else
-            {
-                Move();
-            }
+            Chase();
         }
-
-        if (hitfront3.collider != null)
+        else if (hitfront.collider != null && hitfront.collider.gameObject.tag == ("Player"))
         {
-            if (hitfront3.collider.gameObject.tag == ("Player"))
-            {
-                Chase();
-            }
-            else
-            {
-                Move();
-            }
+            Chase();
+        }
+        else
+        {
+            Move();
         }
     }
 

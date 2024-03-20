@@ -247,6 +247,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1906262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -728,6 +731,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &16136892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1784,6 +1790,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &79458595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1989,6 +1998,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &81747726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2363,6 +2375,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &112250254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3709,6 +3724,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &212575612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65743,6 +65761,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &379302665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77467,6 +77488,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &418730024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78676,6 +78700,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &516307111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80375,7 +80402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &623306613
 Transform:
   m_ObjectHideFlags: 0
@@ -81929,7 +81956,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &702582341
 Transform:
   m_ObjectHideFlags: 0
@@ -83974,6 +84001,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &823107914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84155,7 +84185,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &841943724
 Transform:
   m_ObjectHideFlags: 0
@@ -85865,6 +85895,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &973342151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87171,6 +87204,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1070593356
 GameObject:
   m_ObjectHideFlags: 0
@@ -88476,6 +88512,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1190474419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89930,6 +89969,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1335352948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91004,6 +91046,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1397578679
 GameObject:
   m_ObjectHideFlags: 0
@@ -91978,6 +92023,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1492126431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93483,7 +93531,7 @@ Transform:
   m_GameObject: {fileID: 1580412927}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.2713, y: -44.48, z: 0}
+  m_LocalPosition: {x: -11.2, y: -61.4, z: 0}
   m_LocalScale: {x: 5.4775, y: 5.716, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -93722,6 +93770,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1590630096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95026,6 +95077,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1639073902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98210,6 +98264,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1902321324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98819,7 +98876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1944740138
 Transform:
   m_ObjectHideFlags: 0
@@ -99330,6 +99387,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1961422364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101249,6 +101309,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &2031385569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102332,6 +102395,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &2065296246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102889,6 +102955,9 @@ MonoBehaviour:
   moveSpeed: 5
   Player: {fileID: 1580412931}
   afstand: 10
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &2117022367
 MonoBehaviour:
   m_ObjectHideFlags: 0
