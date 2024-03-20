@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,14 +8,19 @@ using UnityEngine.SceneManagement;
 public class healthplayer : MonoBehaviour
 {
 
-    public int health = 10;
+    public int health = 1;
     public int playerhealth;
     public string Scene;
+    public TextMeshProUGUI healthtext;
     void Start()
     {
         playerhealth = health;
     }
-
+    public void Update()
+    {
+        healthtext.text = playerhealth.ToString();
+        Debug.Log(playerhealth);
+    }
     public void PlayerTakesDamage(int damage)
     {
         playerhealth -= damage;
