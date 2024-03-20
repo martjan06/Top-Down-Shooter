@@ -10,7 +10,7 @@ public class enemylopen : MonoBehaviour
     Transform[] waypoints;
 
     [SerializeField]
-    private float moveSpeed = 2f;
+    private float moveSpeed = 5f;
 
     private int waypointIndex = 0;
 
@@ -53,8 +53,11 @@ public class enemylopen : MonoBehaviour
     void Chase()
     {
         // roteert naar de variable target positie met bepaalde snelheid
-        transform.position = Vector3.MoveTowards(transform.position, Player.position, 2f * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, Player.position, 5f * Time.deltaTime);
         Vector2 direction = Player.position - transform.position;
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right, 2f);
+        Debug.DrawRay(transform.position, Vector2.right * 2f, Color.blue);
 
         // checkt welke angle correct is
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;

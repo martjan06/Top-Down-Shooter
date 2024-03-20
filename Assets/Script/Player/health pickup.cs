@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class healthpickup : MonoBehaviour
 {
-    int extrahealth = 5;
+    int extrahealth = 1;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
