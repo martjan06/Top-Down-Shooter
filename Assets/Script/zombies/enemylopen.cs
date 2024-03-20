@@ -28,31 +28,31 @@ public class enemylopen : MonoBehaviour
 
     void Update()
     {
-        RaycastHit2D hitfront = Physics2D.Raycast(transform.position, transform.up, 5.0f);
-        Debug.DrawRay(transform.position, transform.up * 5.0f, Color.blue);
+        RaycastHit2D hitfront = Physics2D.Raycast(transform.position, transform.up, 8.0f);
+        Debug.DrawRay(transform.position, transform.up * 8.0f, Color.blue);
 
-        RaycastHit2D hitfront1 = Physics2D.Raycast(transform.position, -transform.up, 5.0f);
-        Debug.DrawRay(transform.position, -transform.up * 5.0f, Color.blue);
+        RaycastHit2D hitfront1 = Physics2D.Raycast(transform.position, -transform.up, 8.0f);
+        Debug.DrawRay(transform.position, -transform.up * 8.0f, Color.blue);
 
-        RaycastHit2D hitfront2 = Physics2D.Raycast(transform.position, transform.right, 5.0f);
-        Debug.DrawRay(transform.position, transform.right * 5.0f, Color.blue);
+        RaycastHit2D hitfront2 = Physics2D.Raycast(transform.position, transform.right, 8.0f);
+        Debug.DrawRay(transform.position, transform.right * 8.0f, Color.blue);
 
-        RaycastHit2D hitfront3 = Physics2D.Raycast(transform.position, -transform.right, 5.0f);
-        Debug.DrawRay(transform.position, -transform.right * 5.0f, Color.blue);
+        RaycastHit2D hitfront3 = Physics2D.Raycast(transform.position, -transform.right, 8.0f);
+        Debug.DrawRay(transform.position, -transform.right * 8.0f, Color.blue);
 
         if (hitfront.collider != null && hitfront.collider.gameObject.tag == ("Player"))
         {
             Chase();
         }
-        else if (hitfront.collider != null && hitfront.collider.gameObject.tag == ("Player"))
+        else if (hitfront1.collider != null && hitfront1.collider.gameObject.tag == ("Player"))
         {
             Chase();
         }
-        else if (hitfront.collider != null && hitfront.collider.gameObject.tag == ("Player"))
+        else if (hitfront2.collider != null && hitfront2.collider.gameObject.tag == ("Player"))
         {
             Chase();
         }
-        else if (hitfront.collider != null && hitfront.collider.gameObject.tag == ("Player"))
+        else if (hitfront3.collider != null && hitfront3.collider.gameObject.tag == ("Player"))
         {
             Chase();
         }
