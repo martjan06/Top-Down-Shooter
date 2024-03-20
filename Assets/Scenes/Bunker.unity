@@ -93594,7 +93594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bacdcb25eb44aa04db9d7600c9def446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 1
   playerhealth: 0
   Scene: DeathScreen
   healthtext: {fileID: 1648129766}

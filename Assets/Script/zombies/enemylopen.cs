@@ -17,6 +17,8 @@ public class enemylopen : MonoBehaviour
     public Transform Player;
 
     public float afstand;
+
+    public LayerMask layermask;
     void Start()
     {
         //transform.position = waypoints[waypointIndex].transform.position;
@@ -25,17 +27,35 @@ public class enemylopen : MonoBehaviour
 
     void Update()
     {
-        RaycastHit2D hitfront = Physics2D.Raycast(transform.position, Vector2.right, 0.6f);
-        Debug.DrawRay(transform.position, Vector2.right * 0.6f, Color.blue);
+        RaycastHit2D hitfront = Physics2D.Raycast(transform.position, Vector2.up, 5.0f);
+        Debug.DrawRay(transform.position, Vector2.up * 5.0f, Color.blue);
 
-        if (hitfront)
+        RaycastHit2D hitfront1 = Physics2D.Raycast(transform.position, Vector2.down, 5.0f);
+        Debug.DrawRay(transform.position, Vector2.down * 5.0f, Color.blue);
+
+        RaycastHit2D hitfront2 = Physics2D.Raycast(transform.position, Vector2.right, 5.0f);
+        Debug.DrawRay(transform.position, Vector2.right * 5.0f, Color.blue);
+
+        RaycastHit2D hitfront3 = Physics2D.Raycast(transform.position, Vector2.left, 5.0f);
+        Debug.DrawRay(transform.position, Vector2.left * 5.0f, Color.blue);
+
+        if (hitfront.collider != null || hitfront1.collider != null || hitfront2.collider != null || hitfront3.collider != null)
         {
-            Chase();
+            if (hitfront.collider.gameObject.tag == ("Player") || hitfront2.collider.gameObject.tag == ("Player") || hitfront3.collider.gameObject.tag == ("Player"))
+            {
+                Chase();
+            }
+            if (hitfront1.collider.gameObject.tag == ("Player"))
+            {
+
+            }
         }
         else
         {
             Move();
         }
+
+        if (hitfront.collider != null)
     }
 
     void Move()
@@ -57,9 +77,6 @@ public class enemylopen : MonoBehaviour
         // roteert naar de variable target positie met bepaalde snelheid
         transform.position = Vector3.MoveTowards(transform.position, Player.position, 5f * Time.deltaTime);
         Vector2 direction = Player.position - transform.position;
-
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right, 2f);
-        Debug.DrawRay(transform.position, Vector2.right * 2f, Color.blue);
 
         // checkt welke angle correct is
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
