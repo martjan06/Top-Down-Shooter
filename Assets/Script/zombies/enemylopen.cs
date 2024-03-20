@@ -22,10 +22,13 @@ public class enemylopen : MonoBehaviour
         //transform.position = waypoints[waypointIndex].transform.position;
     }
 
+
     void Update()
     {
-        
-        if (Vector3.Distance(transform.position, Player.position) <= afstand)
+        RaycastHit2D hitfront = Physics2D.Raycast(transform.position, Vector2.right, 0.6f);
+        Debug.DrawRay(transform.position, Vector2.right * 0.6f, Color.blue);
+
+        if (hitfront)
         {
             Chase();
         }
@@ -33,14 +36,13 @@ public class enemylopen : MonoBehaviour
         {
             Move();
         }
-        
     }
 
     void Move()
     {
         transform.position = Vector2.MoveTowards(transform.position,
-                                                waypoints[waypointIndex].transform.position,
-                                                moveSpeed * Time.deltaTime);
+        waypoints[waypointIndex].transform.position,
+        moveSpeed * Time.deltaTime);
 
         if (transform.position == waypoints[waypointIndex].transform.position)
         {
