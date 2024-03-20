@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 205434b8c44b3084a9bacacba654449e
+guid: 33bdcb3bd00181d4bba546a360e9dc20
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,11 +106,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: outsideobjects_0
+      name: BunkerTilemap_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da5d35cd2b6bea444a231d9f3120c032
-      internalID: 264764492
+      spriteID: 158785a5bd3be574e9947be68a0315f9
+      internalID: 105693048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outsideobjects_1
+      name: BunkerTilemap_1
       rect:
         serializedVersion: 2
         x: 50
@@ -145,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f73d5c85857e9a4fad493bfb05f82cf
-      internalID: 1463938389
+      spriteID: 1ac20cbbd760b4345a82be75f8916489
+      internalID: -1329686850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outsideobjects_2
+      name: BunkerTilemap_2
       rect:
         serializedVersion: 2
         x: 0
@@ -166,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ad9442d1715c34c873916eb4496adb
-      internalID: -1071629990
+      spriteID: 836a0574d9705674ab2d3a94f1c59595
+      internalID: 103251424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outsideobjects_3
+      name: BunkerTilemap_3
       rect:
         serializedVersion: 2
         x: 50
@@ -187,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 247e99578dcc17c4baa0fd7ef5dca6b9
-      internalID: 1762234018
+      spriteID: e046c7666c10bef45b1c00ab720247a9
+      internalID: -1984836634
       vertices: []
       indices: 
       edges: []
@@ -204,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      outsideobjects_0: 264764492
-      outsideobjects_1: 1463938389
-      outsideobjects_2: -1071629990
-      outsideobjects_3: 1762234018
+      BunkerTilemap_0: 105693048
+      BunkerTilemap_1: -1329686850
+      BunkerTilemap_2: 103251424
+      BunkerTilemap_3: -1984836634
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

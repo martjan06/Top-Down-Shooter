@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 87d5c8f4531218a4a8d1cf48b87c0d12
+guid: 23744e91455ea4a40bc9f06507be872d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,11 +106,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GevechtSpullen_0
+      name: Player and enemies_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f7be67472832244099929a8577f6c06
-      internalID: -1986936119
+      spriteID: 6bd23cec3619be04e8d79ac34bffb5c9
+      internalID: 494954879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GevechtSpullen_1
+      name: Player and enemies_1
       rect:
         serializedVersion: 2
         x: 50
@@ -145,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13462653519aaae41af73b34d92c214b
-      internalID: -1751402936
+      spriteID: 780f4455eba35a24d9c149e455ef62ed
+      internalID: 56752089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GevechtSpullen_2
+      name: Player and enemies_2
       rect:
         serializedVersion: 2
         x: 0
@@ -166,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc8cc695b79e60c4c945b7a23784bd7e
-      internalID: -1500960057
+      spriteID: 31972b5f234bada4e834ce27ef07c30c
+      internalID: 1209241405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GevechtSpullen_3
+      name: Player and enemies_3
       rect:
         serializedVersion: 2
         x: 50
@@ -187,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b960464e90a2054bac76b1d9b37cfd9
-      internalID: -409511041
+      spriteID: f4ed75fe81d47ae4cbcbfb652a585b46
+      internalID: 2004829349
       vertices: []
       indices: 
       edges: []
@@ -204,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GevechtSpullen_0: -1986936119
-      GevechtSpullen_1: -1751402936
-      GevechtSpullen_2: -1500960057
-      GevechtSpullen_3: -409511041
+      Player and enemies_0: 494954879
+      Player and enemies_1: 56752089
+      Player and enemies_2: 1209241405
+      Player and enemies_3: 2004829349
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

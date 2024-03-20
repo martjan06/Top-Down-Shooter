@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 33bdcb3bd00181d4bba546a360e9dc20
+guid: 18839b96075d3ff41ab90585f969a4c6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,11 +106,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BunkerTilemap_0
+      name: Tank assets_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 158785a5bd3be574e9947be68a0315f9
-      internalID: 105693048
+      spriteID: 68fb9ae4a21d16547bde16374c941d38
+      internalID: -1799950717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BunkerTilemap_1
+      name: Tank assets_1
       rect:
         serializedVersion: 2
         x: 50
@@ -145,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ac20cbbd760b4345a82be75f8916489
-      internalID: -1329686850
+      spriteID: 0cca5fc2f46df91498bff2e5b94e9a77
+      internalID: -1785376423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BunkerTilemap_2
+      name: Tank assets_2
       rect:
         serializedVersion: 2
         x: 0
@@ -166,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 836a0574d9705674ab2d3a94f1c59595
-      internalID: 103251424
+      spriteID: 546566fbd9076f645b7b90eecdaad435
+      internalID: -1234805287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BunkerTilemap_3
+      name: Tank assets_3
       rect:
         serializedVersion: 2
         x: 50
@@ -187,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e046c7666c10bef45b1c00ab720247a9
-      internalID: -1984836634
+      spriteID: 146fa204327aa4b43be7b3eb213e68d8
+      internalID: 291993843
       vertices: []
       indices: 
       edges: []
@@ -204,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BunkerTilemap_0: 105693048
-      BunkerTilemap_1: -1329686850
-      BunkerTilemap_2: 103251424
-      BunkerTilemap_3: -1984836634
+      Tank assets_0: -1799950717
+      Tank assets_1: -1785376423
+      Tank assets_2: -1234805287
+      Tank assets_3: 291993843
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

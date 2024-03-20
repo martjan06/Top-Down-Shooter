@@ -80402,7 +80402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &623306613
 Transform:
   m_ObjectHideFlags: 0
@@ -81956,7 +81956,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &702582341
 Transform:
   m_ObjectHideFlags: 0
@@ -84185,7 +84185,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &841943724
 Transform:
   m_ObjectHideFlags: 0
@@ -93531,7 +93531,7 @@ Transform:
   m_GameObject: {fileID: 1580412927}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.64, y: -43.86, z: 0}
+  m_LocalPosition: {x: -11.69, y: -43.79, z: 0}
   m_LocalScale: {x: 5.4775, y: 5.716, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -98814,7 +98814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c4764c257b5404b852c33ac1cfd031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  end: End
+  End: 
 --- !u!61 &1940904988
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -98876,7 +98876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1944740138
 Transform:
   m_ObjectHideFlags: 0
@@ -100305,8 +100305,11 @@ PolygonCollider2D:
       - {x: -0.0034020548, y: 0.5069456}
       - {x: -0.103072844, y: 0.4817802}
       - {x: -0.10968467, y: 0.4263275}
-      - {x: -0.21619886, y: 0.4084309}
-      - {x: -0.22826073, y: 0.10791273}
+      - {x: -0.20131476, y: 0.41063344}
+      - {x: -0.18967432, y: 0.3638055}
+      - {x: -0.1986645, y: 0.2053405}
+      - {x: -0.18680592, y: 0.115568005}
+      - {x: -0.20421806, y: 0.055306114}
       - {x: -0.21129076, y: -0.24258158}
       - {x: -0.05905725, y: -0.26603478}
       - {x: -0.022870407, y: -0.5030942}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 23744e91455ea4a40bc9f06507be872d
+guid: 2a47525a279919c4cbbe72b13a1ebfe8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,17 +106,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player and enemies_0
+      name: road_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 50
-        width: 50
-        height: 50
+        y: 20
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bd23cec3619be04e8d79ac34bffb5c9
-      internalID: 494954879
+      spriteID: 450159434ffa12a4a918f2d87e1bbbe9
+      internalID: 1502141829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player and enemies_1
+      name: road_1
       rect:
         serializedVersion: 2
-        x: 50
-        y: 50
-        width: 50
-        height: 50
+        x: 10
+        y: 20
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +158,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 780f4455eba35a24d9c149e455ef62ed
-      internalID: 56752089
+      spriteID: 6fd51c7a322786d4f8a013051446852d
+      internalID: -194497409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player and enemies_2
+      name: road_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504cac3ee5eca2949b53dbb93097844e
+      internalID: 861360673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af7b6f277383724dae2b4914151bbc8
+      internalID: -1376574871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7ba5622954db54b96eb85be1b30253
+      internalID: 1284274892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 10
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3590331fb6d20a545a800232d76785d2
+      internalID: 558637832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 50
-        height: 50
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31972b5f234bada4e834ce27ef07c30c
-      internalID: 1209241405
+      spriteID: fb53031d36cb23048a005240e9b63db6
+      internalID: -312017466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player and enemies_3
+      name: road_7
       rect:
         serializedVersion: 2
-        x: 50
+        x: 10
         y: 0
-        width: 50
-        height: 50
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +284,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4ed75fe81d47ae4cbcbfb652a585b46
-      internalID: 2004829349
+      spriteID: ce0e377b77ffabe4f8646708a01b1d6c
+      internalID: -21181942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3448bc0247ad444ac003613e8d8778
+      internalID: -1435945354
       vertices: []
       indices: 
       edges: []
@@ -204,10 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player and enemies_0: 494954879
-      Player and enemies_1: 56752089
-      Player and enemies_2: 1209241405
-      Player and enemies_3: 2004829349
+      road_0: 1502141829
+      road_1: -194497409
+      road_2: 861360673
+      road_3: -1376574871
+      road_4: 1284274892
+      road_5: 558637832
+      road_6: -312017466
+      road_7: -21181942
+      road_8: -1435945354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

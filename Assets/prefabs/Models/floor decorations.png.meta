@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 18839b96075d3ff41ab90585f969a4c6
+guid: 37f6a9c69d17fb441a6a0bbdb954d88a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,11 +106,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tank assets_0
+      name: floor decorations_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68fb9ae4a21d16547bde16374c941d38
-      internalID: -1799950717
+      spriteID: aeb2d1b08c275c540b58717466195286
+      internalID: -980745716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tank assets_1
+      name: floor decorations_1
       rect:
         serializedVersion: 2
         x: 50
@@ -145,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cca5fc2f46df91498bff2e5b94e9a77
-      internalID: -1785376423
+      spriteID: 07ea31da12904bf4187ca17640346f2c
+      internalID: -1944539992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tank assets_2
+      name: floor decorations_2
       rect:
         serializedVersion: 2
         x: 0
@@ -166,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 546566fbd9076f645b7b90eecdaad435
-      internalID: -1234805287
+      spriteID: 7fcb5153f23277d4f86298a936dad1a1
+      internalID: 1297940348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tank assets_3
+      name: floor decorations_3
       rect:
         serializedVersion: 2
         x: 50
@@ -187,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 146fa204327aa4b43be7b3eb213e68d8
-      internalID: 291993843
+      spriteID: 3ee7260180d80c04d810287ad722f649
+      internalID: -1854416885
       vertices: []
       indices: 
       edges: []
@@ -204,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tank assets_0: -1799950717
-      Tank assets_1: -1785376423
-      Tank assets_2: -1234805287
-      Tank assets_3: 291993843
+      floor decorations_0: -980745716
+      floor decorations_1: -1944539992
+      floor decorations_2: 1297940348
+      floor decorations_3: -1854416885
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
