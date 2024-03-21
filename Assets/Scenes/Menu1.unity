@@ -2195,7 +2195,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ZOMBIES: DOEN ALLEMAAL 1 DAMAGE EN ZIJN ALLEMAAL NET ZO SNEL'
+  m_text: Alle zombies doen 1 damage maar ze verschillen van health.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2421,9 +2421,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'JE HEBT 1 LEVEN MAAR JE KAN 2 MEDKITS VINDEN WAARDOOR JE ER 2 BIJ KRIJGT
-
-'
+  m_text: Je hebt 3 levens maar je kan medkits vinden rond de map om er 1 leven b
+    ij te krijgen.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
